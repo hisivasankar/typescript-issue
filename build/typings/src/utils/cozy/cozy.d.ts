@@ -1,6 +1,6 @@
 import * as dialog from "./components/Dialog";
 declare const cozy: {
-    list: (props: import("./components/List").MyProps) => {
+    list: (props: import("utils/cozy/components/List").MyProps) => {
         hello: string;
         text: string;
     };
