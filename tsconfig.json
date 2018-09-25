@@ -6,7 +6,6 @@
     "jsx": "react",
     "sourceMap": true,
     "rootDir": "./",
-    "baseUrl": "./src",
     "outDir": "build",
     "removeComments": true,
     "noImplicitAny": true,
