@@ -1,0 +1,17 @@
+{
+  "name": "mylibrary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf build && NODE_ENV=production webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^5.2.0",
+    "typescript": "^3.0.3",
+    "webpack": "^4.20.1",
+    "webpack-cli": "^3.1.1"
+  }
+}

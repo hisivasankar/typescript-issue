@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "sourceMap": true,
+    "rootDir": "./",
+    "baseUrl": "./src",
+    "outDir": "build",
+    "removeComments": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "declaration": true,
+    "declarationDir": "build/typings",
+    "importHelpers": true
+  },
+  "exclude": ["node_modules"]
+}
