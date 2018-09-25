@@ -1,10 +1,10 @@
 declare const geometry: {
     cozy: {
-        list: (props: import("utils/cozy/components/List").MyProps) => {
+        list: (props: import("./cozy/components/List").MyProps) => {
             hello: string;
             text: string;
         };
-        dialog: typeof import("utils/cozy/components/Dialog");
+        dialog: typeof import("./cozy/components/Dialog");
     };
 };
 export { geometry };
